@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>What the hell is HEXO?</title>
+      <link href="/2023/07/13/2023-07-13/"/>
+      <url>/2023/07/13/2023-07-13/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Hexo-github搭建个人博客并绑定个人域名"><a href="#Hexo-github搭建个人博客并绑定个人域名" class="headerlink" title="Hexo+github搭建个人博客并绑定个人域名"></a><a href="https://so.csdn.net/so/search?q=Hexo&spm=1001.2101.3001.7020">Hexo</a>+github搭建个人博客并绑定个人域名</h2><h2 id="第一部分视频学习"><a href="#第一部分视频学习" class="headerlink" title="第一部分视频学习"></a>第一部分视频学习</h2><p>链接：<a href="https://www.bilibili.com/video/BV1mU4y1j72n?spm_id_from=333.337.search-card.all.click">https://www.bilibili.com/video/BV1mU4y1j72n?spm_id_from=333.337.search-card.all.click</a></p><p>视频中的网址失效了，在本文下面给你最新的博客教程</p><p>安装并配置Node.js<br>Node.js下载:【它让JavaScript成为与PHP、Python、Perl、Ruby等服务端语言平起平坐的脚本语言。】</p><p>教程：<a href="https://blog.csdn.net/weixin_52799373/article/details/123840137">https://blog.csdn.net/weixin_52799373/article/details/123840137</a></p><p>注意一</p><p>全局安装最常用的 express 模块 进行测试命令如下:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install express -g</span><br></pre></td></tr></table></figure><h6 id="安装并配置Git"><a href="#安装并配置Git" class="headerlink" title="安装并配置Git"></a>安装并配置Git</h6><p>git是一个并源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理</p><p>Windows系统Git安装教程：<a href="https://www.cnblogs.com/xueweisuoyong/p/11914045.html">https://www.cnblogs.com/xueweisuoyong/p/11914045.html</a></p><h6 id="生成SSH-Keys"><a href="#生成SSH-Keys" class="headerlink" title="生成SSH Keys"></a>生成SSH Keys</h6><p>生成ssh</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;你的邮箱地址&quot;</span><br></pre></td></tr></table></figure><p>测试ssh是否绑定成功</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure><p>未完待续 &#x3D;__&#x3D;</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>国外对飞行员的要求，是不是比国内相对宽松些？</title>
       <link href="/2023/07/12/2022-07-03/"/>
       <url>/2023/07/12/2022-07-03/</url>
