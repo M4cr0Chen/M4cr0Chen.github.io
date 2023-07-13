@@ -1,11 +1,11 @@
   /* 导航栏做居中处理 */
-  #nav-right{
+  /* #nav-right{
     flex:1 1 auto;
     justify-content: flex-end;
     margin-left: auto;
     display: flex;
     flex-wrap:nowrap;
-  }
+  } */
 
 /* 雪花特效
 [data-theme="light"] #snow{
@@ -101,6 +101,7 @@
 
 .btn-xz-box {
   margin-top: 10px;
+  background-color: #1f1f1f;
 }
 
 .btn-xz {
@@ -111,6 +112,7 @@
   line-height: 2.4;
   margin: 8px 0;
   cursor: pointer !important;
+  color: #f0f3f7; 
 }
 
 .btn-xz:hover {
@@ -191,6 +193,7 @@
 
   .t-top .t-t-l .bg-ad {
       width: 100%;
+      color: #f0f3f7; 
   }
 }
 
@@ -210,3 +213,21 @@
   }
 }
 /* 自定义底部  End */
+
+
+
+/*鼠标样式*/
+body {
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur), auto;
+}
+
+.hide-block>.hide-button.open,
+.hide-inline>.hide-button.open {
+  display: block
+}
+
+a,
+button,
+img {
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur), auto
+}
