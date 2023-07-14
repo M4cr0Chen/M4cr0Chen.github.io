@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "iconfont"; /* Project id  */
   src: url('iconfont.ttf?t=1689225066468') format('truetype');
 }
@@ -46,5 +46,5 @@
 
 .icon-dianying:before {
   content: "\e8ae";
-}
+} */
 
