@@ -36,16 +36,16 @@ function showWelcome() {
     //根据国家、省份、城市信息自定义欢迎语
     switch (ipLoacation.result.ad_info.nation) {
         case "日本":
-            posdesc = "よろしく，一起去看樱花吗";
+            posdesc = "よろしく，do you wanna go see some sakura?";
             break;
         case "美国":
-            posdesc = "Let us live in peace!";
+            posdesc = "I love you to the moon and back";
             break;
         case "英国":
-            posdesc = "想同你一起夜乘伦敦眼";
+            posdesc = "You are the apple of my eye";
             break;
         case "俄罗斯":
-            posdesc = "干了这瓶伏特加！";
+            posdesc = "Drink this Vodka！";
             break;
         case "法国":
             posdesc = "C'est La Vie";
@@ -54,10 +54,10 @@ function showWelcome() {
             posdesc = "Die Zeit verging im Fluge.";
             break;
         case "澳大利亚":
-            posdesc = "一起去大堡礁吧！";
+            posdesc = "Let's go to the Great Barrier Reef together.！";
             break;
         case "加拿大":
-            posdesc = "拾起一片枫叶赠予你";
+            posdesc = "Maple leaf is my gift to you";
             break;
         case "中国":
             pos = ipLoacation.result.ad_info.province + " " + ipLoacation.result.ad_info.city + " " + ipLoacation.result.ad_info.district;
@@ -204,18 +204,19 @@ function showWelcome() {
     //根据本地时间切换欢迎语
     let timeChange;
     let date = new Date();
-    if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>上午好</span>，一日之计在于晨！";
-    else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>中午好</span>，该摸鱼吃午饭了。";
-    else if (date.getHours() >= 13 && date.getHours() < 15) timeChange = "<span>下午好</span>，懒懒地睡个午觉吧！";
-    else if (date.getHours() >= 15 && date.getHours() < 16) timeChange = "<span>三点几啦</span>，一起饮茶呀！";
-    else if (date.getHours() >= 16 && date.getHours() < 19) timeChange = "<span>夕阳无限好！</span>";
-    else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>晚上好</span>，夜生活嗨起来！";
-    else timeChange = "夜深了，早点休息，少熬夜。";
+    if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>Good morning</span>，an hour in the morning is worth two in the evening！";
+    else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>At noon all good</span>，time for lunch~";
+    else if (date.getHours() >= 13 && date.getHours() < 15) timeChange = "<span>Good afternoon</span>，take a lazy nap！";
+    else if (date.getHours() >= 15 && date.getHours() < 16) timeChange = "<span>Its three O'clock!</span>Let's have some tea！";
+    else if (date.getHours() >= 16 && date.getHours() < 19) timeChange = "<span>The sunset is charming！</span>";
+    else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>Good evening</span>，have some high night life！";
+    else timeChange = "It's getting late，have some good rest。";
 
     try {
         //自定义文本和需要放的位置
+        // current IP address： <span style="color:var(--theme-color)">${ip}</span>，
         document.getElementById("welcome-info").innerHTML =
-            `<b><center>🎉 欢迎信息 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color)">${pos}</span> 的小伙伴，${timeChange}您现在距离站长约 <span style="color:var(--theme-color)">${dist}</span> 公里，当前的IP地址为： <span style="color:var(--theme-color)">${ip}</span>， ${posdesc}</b>`;
+            `<b><center>🎉 Welcome Info 🎉</center>&emsp;&emsp;Welcome my friend from <span style="color:var(--theme-color)">${pos}</span>，${timeChange}You are <span style="color:var(--theme-color)">${dist}</span> Kilometers away from the host: ${posdesc}</b>`;
     } catch (err) {
         // console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")
     }
