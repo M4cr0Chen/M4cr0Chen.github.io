@@ -216,7 +216,7 @@ function showWelcome() {
         //自定义文本和需要放的位置
         // current IP address： <span style="color:var(--theme-color)">${ip}</span>，
         document.getElementById("welcome-info").innerHTML =
-            `<b><center>🎉 Welcome Info 🎉</center>&emsp;&emsp;Welcome my friend from <span style="color:var(--theme-color)">${pos}</span>，${timeChange}You are <span style="color:var(--theme-color)">${dist}</span> Kilometers away from the host: ${posdesc}</b>`;
+            `<b><center>🎉 Welcome Info 🎉</center>&emsp;&emsp;Welcome my friend from <span style="color:var(--theme-color)">${pos}</span>，${timeChange} You are <span style="color:var(--theme-color)">${dist}</span> Kilometers away from the host: ${posdesc}</b>`;
     } catch (err) {
         // console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")
     }
