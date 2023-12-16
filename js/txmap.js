@@ -210,7 +210,7 @@ function showWelcome() {
     else if (date.getHours() >= 15 && date.getHours() < 16) timeChange = "<span>Its three O'clock!</span>Let's have some tea！";
     else if (date.getHours() >= 16 && date.getHours() < 19) timeChange = "<span>The sunset is charming！</span>";
     else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>Good evening</span>，have some high night life！";
-    else timeChange = "It's getting late，have some good rest。";
+    else timeChange = "It's getting late，have some good rest.";
 
     try {
         //自定义文本和需要放的位置
