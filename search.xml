@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>My Plants-vs-Zombies Development Log</title>
+      <link href="/2023/12/17/2023-12-17/"/>
+      <url>/2023/12/17/2023-12-17/</url>
+      
+        <content type="html"><![CDATA[<h2 id="My-Plants-vs-Zombies-Development-Log-2"><a href="#My-Plants-vs-Zombies-Development-Log-2" class="headerlink" title="My-Plants-vs-Zombies Development Log #2"></a>My-Plants-vs-Zombies Development Log #2</h2><p>I just finished my last final exam yesterday so hey, I finally got free time to work on this lil project :P</p><p>Just to recap, what I did in the first day are basically setting up a bunch of background images like the images for the lawn and the toolbar. The entire game interface is created so that’s a good start for me.</p><h4 id="What-I-did-afterward-are-following"><a href="#What-I-did-afterward-are-following" class="headerlink" title="What I did afterward are following:"></a>What I did afterward are following:</h4><ol><li>Implemented selection and dragging of the plants</li><li>Enabling the plants to be “planted” on the ground</li><li>Iteratively display the picture set in the res folder to create the waving animation of the plants</li><li>Created a starting menu of the game</li><li>Randomly creating Sunshine, and…</li><li>Display the random Sunshine.</li></ol><p>I defined the own structure like</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">struct sunshineBall &#123;</span><br><span class="line">int x, y; // Coordinates for the X and Y Coord of sunshine when falling</span><br><span class="line">int frameIndex; // Index for the current displaying picture</span><br><span class="line">int destY; // Y-Coord for the destination of the falling sunshine</span><br><span class="line">bool used; // Using or not</span><br><span class="line">int timer; //</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p>which is exactly something we learned in CS135. I’m not gonna lie, struct are indeed very useful and convenient.</p><p>One of the confusing topic is the pointer variable and memories, I would’ve to read the textbook to understand what it does lol.</p><h4 id="Starting-Menu"><a href="#Starting-Menu" class="headerlink" title="Starting Menu"></a>Starting Menu</h4><p><img src="https://raw.githubusercontent.com/M4cr0Chen/MyPic/main/img/202312171122020.png" alt="img"></p><h4 id="Selecting-and-Dragging-Plants"><a href="#Selecting-and-Dragging-Plants" class="headerlink" title="Selecting and Dragging Plants"></a>Selecting and Dragging Plants</h4><p><img src="https://github.com/M4cr0Chen/MyPic/blob/main/img/202312171125413.png?raw=true" alt="202312171125413.png"></p><h4 id="Planting-the-Plant-to-the-center-of-lawn-block"><a href="#Planting-the-Plant-to-the-center-of-lawn-block" class="headerlink" title="Planting the Plant to the center of lawn block"></a>Planting the Plant to the center of lawn block</h4><p><img src="https://github.com/M4cr0Chen/MyPic/blob/main/img/202312171126291.png?raw=true" alt="202312171126291.png"></p><h4 id="Displaying-Random-Sunshine"><a href="#Displaying-Random-Sunshine" class="headerlink" title="Displaying Random Sunshine"></a>Displaying Random Sunshine</h4><p><img src="https://github.com/M4cr0Chen/MyPic/blob/main/img/202312171127493.png?raw=true" alt="202312171127493.png"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Game Development </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Math 135 Notes</title>
       <link href="/2023/12/14/Math135Notes/"/>
       <url>/2023/12/14/Math135Notes/</url>
