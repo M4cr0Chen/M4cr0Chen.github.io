@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>My Plants-vs-Zombies Development Log</title>
+      <title>My PVZ Development Log</title>
       <link href="/2023/12/20/2023-12-20/"/>
       <url>/2023/12/20/2023-12-20/</url>
       
@@ -23,7 +23,7 @@
     
     
     <entry>
-      <title>My Plants-vs-Zombies Development Log Day-2</title>
+      <title>My PVZ Development Log</title>
       <link href="/2023/12/17/2023-12-17/"/>
       <url>/2023/12/17/2023-12-17/</url>
       
@@ -80,11 +80,11 @@
     
     
     <entry>
-      <title>My Plants-vs-Zombies Development Log</title>
+      <title>My PVZ Development Log</title>
       <link href="/2023/12/13/2023-12-13/"/>
       <url>/2023/12/13/2023-12-13/</url>
       
-        <content type="html"><![CDATA[<p>The project is based on C language, mainly focusing on C++. The IDE I used is Visual Studio 2022.</p><p>This is the first day of the development, I am looking forward of reproducing a well known 2D tower defense game Plants-vs-Zombies. I am new to C so I would’ve to learn all the basics and perhaps some deeper concepts of this programming language during the development. So for me basically this project is a pretty good preview of those bunch of concepts of C in advance.</p><p>I am planning to finish the project before the start of the winter term, which is gonna be January 8th. That being said I have roughly about 25 days to work on this project solely. Hopefully I can get over any bugs and errors during the development.</p><p>Following are what I did today,</p><ol><li>Create new project (empty project template) using any version of Visual Studio</li><li>Import materials</li><li>Implement primary game scene</li><li>Implement the tool bar at the top of the game panel</li><li>Implement the plant cards in the tool bar</li></ol><p><img src="https://raw.githubusercontent.com/M4cr0Chen/MyPic/main/img/202312132104368.png" alt="1"></p><p>Basically what I did today is to create an actual panel with size 900 * 600 (which is the default resolution of the original game) to display the content; added a background image; added a “tool bar” which held all the plants’ cards; wrote some functions that access the resource folder to get the available plant cards, and placed them on to the tool bar separated by a certain widths. Last thing I did today is to allow the program to peek message of user’s input, by far only left-click to grab up the plant, and yet not able to place the plants down. </p><p><img src="https://raw.githubusercontent.com/M4cr0Chen/MyPic/main/img/202312132106302.png" alt="2"></p><p><img src="https://raw.githubusercontent.com/M4cr0Chen/MyPic/main/img/202312132106995.png" alt="3"></p><p>C is honestly quite different from Racket,  the one I’ve down into for the past three months (it’s always waterloo 1A CS135), and honestly I’ve had enough of recursion. As an imperative language C works much different from functional languages like Lisp or Racket. It’s refreshing picking up concepts like for loop, while loop, if-else statements, and so on again. Even though the grammar mike seems identical between JAVA and C (and C++), I feel like they’re much different from each other as C really shows much more basic details of programming compared to JAVA.</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="My-PVZ-Development-Log-1"><a href="#My-PVZ-Development-Log-1" class="headerlink" title="My PVZ Development Log #1"></a>My PVZ Development Log #1</h3><p>The project is based on C language, mainly focusing on C++. The IDE I used is Visual Studio 2022.</p><p>This is the first day of the development, I am looking forward of reproducing a well known 2D tower defense game Plants-vs-Zombies. I am new to C so I would’ve to learn all the basics and perhaps some deeper concepts of this programming language during the development. So for me basically this project is a pretty good preview of those bunch of concepts of C in advance.</p><p>I am planning to finish the project before the start of the winter term, which is gonna be January 8th. That being said I have roughly about 25 days to work on this project solely. Hopefully I can get over any bugs and errors during the development.</p><p>Following are what I did today,</p><ol><li>Create new project (empty project template) using any version of Visual Studio</li><li>Import materials</li><li>Implement primary game scene</li><li>Implement the tool bar at the top of the game panel</li><li>Implement the plant cards in the tool bar</li></ol><p><img src="https://raw.githubusercontent.com/M4cr0Chen/MyPic/main/img/202312132104368.png" alt="1"></p><p>Basically what I did today is to create an actual panel with size 900 * 600 (which is the default resolution of the original game) to display the content; added a background image; added a “tool bar” which held all the plants’ cards; wrote some functions that access the resource folder to get the available plant cards, and placed them on to the tool bar separated by a certain widths. Last thing I did today is to allow the program to peek message of user’s input, by far only left-click to grab up the plant, and yet not able to place the plants down. </p><p><img src="https://raw.githubusercontent.com/M4cr0Chen/MyPic/main/img/202312132106302.png" alt="2"></p><p><img src="https://raw.githubusercontent.com/M4cr0Chen/MyPic/main/img/202312132106995.png" alt="3"></p><p>C is honestly quite different from Racket,  the one I’ve down into for the past three months (it’s always waterloo 1A CS135), and honestly I’ve had enough of recursion. As an imperative language C works much different from functional languages like Lisp or Racket. It’s refreshing picking up concepts like for loop, while loop, if-else statements, and so on again. Even though the grammar mike seems identical between JAVA and C (and C++), I feel like they’re much different from each other as C really shows much more basic details of programming compared to JAVA.</p>]]></content>
       
       
       
